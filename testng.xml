@@ -5,6 +5,10 @@
         <classes>
             <class name="com.thetestingacademy.ex_04_mini_Project04.SeleniumBasics15_KatolonProject">
             </class>
+            <class name="com.thetestingacademy.ex_04_mini_Project04.SeleniumBasics16_OrangeHRM_mini_Project">
+            </class>
+            <class name="com.thetestingacademy.ex_04_mini_Project04.SeleniumBasics17_Webtables">
+            </class>
         </classes>
     </test>
 </suite>
