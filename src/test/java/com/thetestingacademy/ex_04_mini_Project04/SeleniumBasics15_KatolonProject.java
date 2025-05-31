@@ -8,6 +8,7 @@ import io.qameta.allure.SeverityLevel;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -22,7 +23,7 @@ public class SeleniumBasics15_KatolonProject extends CommonToAll {
     @Test
     public void test_LoginPage() {
 
-        WebDriver driver = new EdgeDriver();
+        WebDriver driver = new ChromeDriver();
         openBrowser(driver, "https://katalon-demo-cura.herokuapp.com/");
         WebElement make_appoint = driver.findElement(By.xpath("//a[@id='btn-make-appointment']"));
         make_appoint.click();
