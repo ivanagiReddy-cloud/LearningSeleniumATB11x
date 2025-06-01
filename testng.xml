@@ -9,6 +9,8 @@
             </class>
             <class name="com.thetestingacademy.ex_04_mini_Project04.SeleniumBasics17_Webtables">
             </class>
+            <class name="com.thetestingacademy.ex_04_mini_Project04.SeleniumBasics18_OrangHRMTable_Pagination">
+            </class>
         </classes>
     </test>
 </suite>
