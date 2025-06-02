@@ -2,15 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/sivan/IdeaProjects/LearningSeleniumATB11x">
-        <classes>
-            <class name="com.thetestingacademy.ex_04_mini_Project04.SeleniumBasics15_KatolonProject">
-            </class>
-            <class name="com.thetestingacademy.ex_04_mini_Project04.SeleniumBasics16_OrangeHRM_mini_Project">
-            </class>
-            <class name="com.thetestingacademy.ex_04_mini_Project04.SeleniumBasics17_Webtables">
-            </class>
-            <class name="com.thetestingacademy.ex_04_mini_Project04.SeleniumBasics18_OrangHRMTable_Pagination">
-            </class>
-        </classes>
+       <packages>
+           <package name="com.thetestingacademy.ex_04_mini_Project04"></package>
+           <package name="com.thetestingacademy.ex_05_ShadowDOM_Project05"></package>
+       </packages>
     </test>
 </suite>
