@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true" name="C:/Users/sivan/IdeaProjects/LearningSeleniumATB11x">
        <packages>
            <package name="com.thetestingacademy.ex_04_mini_Project04"></package>
-           <package name="com.thetestingacademy.ex_05_ShadowDOM_Project05"></package>
+           <package name="com.thetestingacademy.ex_05_ShadowDOM_ACTIONS_Project05"></package>
        </packages>
     </test>
 </suite>
