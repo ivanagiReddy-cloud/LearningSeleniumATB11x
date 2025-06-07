@@ -21,7 +21,6 @@ public class SeleniumBasics_28_RL02 extends CommonToAll {
     public void test_RL() throws InterruptedException {
 
         driver.get("https://www.aqi.in/real-time-most-polluted-city-ranking");
-        driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,500)");

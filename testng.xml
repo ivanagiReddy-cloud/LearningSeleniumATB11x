@@ -5,6 +5,8 @@
        <packages>
            <package name="com.thetestingacademy.ex_04_mini_Project04"></package>
            <package name="com.thetestingacademy.ex_05_ShadowDOM_ACTIONS_Project05"></package>
+           <package name="com.thetestingacademy.ex_06_window_handles"></package>
+           <package name="com.thetestingacademy.ex_07_relativeLocatorsAfter4Version"></package>
        </packages>
     </test>
 </suite>

@@ -9,23 +9,24 @@ import org.testng.annotations.BeforeTest;
 public class CommonToAll {
 
     public WebDriver driver;
-    public void openBrowser(WebDriver driver, String url){
+
+    public void openBrowser(WebDriver driver, String url) {
         driver.get(url);
         driver.manage().window().maximize();
     }
 
-    public void closeBrowser(WebDriver driver){
+    public void closeBrowser(WebDriver driver) {
         driver.quit();
     }
 
     @BeforeTest
-    public void setUp(){
-        driver = new EdgeDriver();
+    public void setUp() {
+        driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
 
-
-    public void tearDown(){
+    @AfterTest
+    public void tearDown() {
         driver.quit();
 
         try {

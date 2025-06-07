@@ -13,7 +13,6 @@ public class SeleniumBasics27_RelativeLocators extends CommonToAll {
     public void test_RelativeLoc(){
 
         driver.get("https://awesomeqa.com/practice.html");
-        driver.manage().window().maximize();
         WebElement years= driver.findElement(By.xpath("//span[text()='Years of Experience']"));
         driver.findElement(with(By.id("exp-5")).toRightOf(years)).click();
     }

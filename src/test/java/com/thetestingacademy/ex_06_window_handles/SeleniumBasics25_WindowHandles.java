@@ -17,7 +17,6 @@ public class SeleniumBasics25_WindowHandles extends CommonToAll {
     public void windows_handle() {
 
         driver.get("https://the-internet.herokuapp.com/");
-        driver.manage().window().maximize();
 
         Actions actions = new Actions(driver);
         actions.sendKeys(Keys.PAGE_DOWN);
