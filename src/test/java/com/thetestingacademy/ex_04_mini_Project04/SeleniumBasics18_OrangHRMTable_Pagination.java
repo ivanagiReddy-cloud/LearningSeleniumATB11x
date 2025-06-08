@@ -16,7 +16,7 @@ import java.util.List;
 public class SeleniumBasics18_OrangHRMTable_Pagination extends CommonToAll {
 
 
-    @Test
+    @Test(dataProvider = "getData")
     public void pagination() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         openBrowser(driver, "https://awesomeqa.com/hr/web/index.php/auth/login");

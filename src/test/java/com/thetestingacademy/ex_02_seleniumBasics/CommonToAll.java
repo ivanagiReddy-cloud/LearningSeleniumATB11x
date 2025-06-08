@@ -21,7 +21,7 @@ public class CommonToAll {
 
     @BeforeTest
     public void setUp() {
-        driver = new ChromeDriver();
+        driver = new EdgeDriver();
         driver.manage().window().maximize();
     }
 
